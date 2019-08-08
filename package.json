@@ -1,0 +1,21 @@
+{
+  "name": "twitch-stream-box",
+  "version": "1.1.0",
+  "description": "Stream to your Twitch Channel from AWS Elastic Beanstalk.",
+  "private": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git-aws.internal.justin.tv/hedgehog/twitch-stream-box"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "zip": "bestzip app.zip app.js package.json"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.15"
+  },
+  "devDependencies": {
+    "bestzip": "^2.0.0"
+  }
+}

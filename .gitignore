@@ -1,0 +1,11 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Temporary
+.DS_Store
+*.log
+._*
+
+# Artifacts
+app.zip
